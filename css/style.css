@@ -500,7 +500,7 @@ section {
 }
 
 .contracting-box__img-box {
-	/* min-height: 85px; */
+	min-height: 125px;
 	width: 100%;
 	display: -webkit-flex;
 	display: -moz-flex;
