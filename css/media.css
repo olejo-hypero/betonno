@@ -573,6 +573,10 @@
 	}
 	.exp-item {
 		padding: 140px 20px 40px;
+		flex: 100% 1 1;
+	}
+	.exp-item__img {
+		margin: 0 auto 40px;
 	}
 	.saving__iframe {
 		padding: 0;
@@ -846,6 +850,9 @@
 	}
 	.exp-item {
 		padding: 140px 20px 40px;
+	}
+	.exp-item__img {
+		margin: 0 auto 40px;
 	}
 	.exp-item__desc {
 		font-size: 16px;
