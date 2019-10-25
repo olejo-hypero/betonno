@@ -25,16 +25,18 @@ $(document).ready(function(){
 		$('body').toggleClass('body-overflow');
 	});
 
-	// $(window).load(function(){
-	// 	$ (".header").sticky({ topSpacing: 0, className: 'sticky' });
-	// });
+	$(window).load(function(){
+		$ (".header").sticky({ topSpacing: 0, className: 'sticky' });
+	});
 
 	$('.mask').mask("+380 999-99-99-99");
 
-	$('.go_to').click( function(){ // ловим клик по ссылке с классом go_to
+	$('.nav__link').click( function(){ // ловим клик по ссылке с классом go_to
 		var scroll_el = $(this).attr('href'); // возьмем содержимое атрибута href, должен быть селектором, т.е. например начинаться с # или .
-	        if ($(scroll_el).length != 219) { // проверим существование элемента чтобы избежать ошибки
+	        if ($(scroll_el).length != 0) { // проверим существование элемента чтобы избежать ошибки
 		    $('html, body').animate({ scrollTop: $(scroll_el).offset().top }, 500); // анимируем скроолинг к элементу scroll_el
+		    	$(".nav__link").removeClass('nav__link--active');
+            		$(this).addClass('nav__link--active');
 	        }
 		    return false; // выключаем стандартное действие
     });

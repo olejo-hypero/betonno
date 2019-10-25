@@ -242,6 +242,10 @@ section {
 	margin-right: 0;
 }
 
+.nav__link--active {
+	color: #ffc600;
+}
+
 .header__mobile-menu {
 	position: fixed;
 	min-width: 25%;
