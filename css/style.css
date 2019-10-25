@@ -8,6 +8,10 @@
 	box-sizing: border-box;
 }
 
+html {
+	overflow-x: hidden;
+}
+
 body {
 	background-color: #24292f;
 	overflow-x: hidden;
@@ -404,7 +408,7 @@ section {
 
 .buying__icon {
 	position: absolute;
-	bottom: -60px;
+	bottom: 0;
 	left: 50%;
     transform: translate(-50%, 0);
     z-index: 999;
@@ -986,8 +990,12 @@ section {
 }
 
 .team__item {
-	flex: 33.33% 1 1;
-	margin-right: 40px;
+	flex: 32% 1 1;
+	margin-right: 2%;
+}
+
+.team__item:last-child {
+	margin-right: 0;
 }
 
 .team-block__title {
