@@ -1,0 +1,651 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
+      <meta name="keywords" content="">
+      <title>Site</title>
+      <link rel="stylesheet" href="css/style.css">
+      <link rel="stylesheet" href="css/media.css">
+      <link rel="stylesheet" href="css/reset.css">
+      <link rel="stylesheet" href="css/fonts.css">
+      <link rel="stylesheet" href="css/slick-theme.css">
+      <link rel="stylesheet" href="css/slick.css">
+      <link rel="stylesheet" href="css/font-awesome.min.css">
+      <link rel="stylesheet" href="css/jquery.arcticmodal-0.3.css">
+      <link rel="stylesheet" href="css/slider-ui.css">
+      <link rel="shortcut icon" href="" type="image/x-icon">
+      <link rel="stylesheet" href="css/font-awesome.min.css">
+      <script src="js/jquery-1.9.1.min.js"></script>
+      <script src="js/main.js"></script>
+      <script src="js/ui-slider.js"></script>
+      <script src="js/tabs_localStorage.js"></script>
+      <script src="js/slick.min.js"></script>
+      <script src="js/jquery.sticky.js"></script>
+      <script src="js/jquery.maskedinput.min.js"></script>
+      <script src="js/jquery.validate.min.js"></script>
+      <!--[if lt IE 9]>
+            <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+      <![endif]-->
+</head>
+<body>
+      <header class="header" style="">
+            <div class="container">
+                  <div class="header__wrap">
+                        <div class="logo header__logo">
+                              <a href="/" class="logo__link">
+                                    <img src="images/logo.png" alt="Title company" class="logo__image">
+                              </a>
+                        </div>
+                        <a href="tel:+38 (096) 161-77-77" class="info-number">
+                              +38 (096) 161-77-77 
+                        </a>
+                        <nav class="nav header__nav">
+                              <a href="#" class="nav__link go_to">О компании</a>
+                              <a href="#contracting" class="nav__link go_to">Преимущества</a>
+                              <a href="#slider" class="nav__link go_to">Автопарк</a>
+                              <a href="#work" class="nav__link go_to">Доставка</a>
+                              <a href="#objects" class="nav__link go_to">Объекты</a>
+                              <a href="#additionally" class="nav__link go_to">Дополнительно</a>
+                        </nav>
+                  </div>
+
+                  <div class="header__btn btn-toggle">
+                        <div class="btn-toggle__line"></div>
+                  </div>
+
+                  <div class="header__mobile-menu">
+                        <a href="tel:+38 (096) 161-77-77" class="header__number">
+                              +38 (096) 161-77-77 
+                        </a>
+                        <nav class="header__mobile-nav nav-menu">
+                              <a href="#" class="nav-menu__link nav-menu__link--active">О компании</a>
+                              <a href="#contracting" class="nav-menu__link go_to">Преимущества</a>
+                              <a href="#slider" class="nav-menu__link go_to">Автопарк</a>
+                              <a href="#work" class="nav-menu__link go_to">Доставка</a>
+                              <a href="#objects" class="nav-menu__link go_to">Объекты</a>
+                              <a href="#additionally" class="nav-menu__link go_to">Дополнительно</a>
+                        </nav>
+                  </div>
+            </div>
+      </header>
+      <main>
+            <section class="buying">
+                  <div class="buying-bg"></div>
+                  <div class="container">
+                        <div class="buying__wrap">
+                              <div class="buying__image">
+                                    <img class="buying__img" src="images/beton-3.png" alt="">
+                              </div>
+                              <div class="buying__right">
+                                    <h1 class="buying__title">Эскаватор-погрузчик <span class="buying__name">JCB 4CX</span></h1>
+                                    <div class="buying__description">
+                                          Аренда эксковаторов в Киеве и Киевской области
+                                    </div>
+                                    <div class="buying__price">650,99 <span class="buying__currency">грн/час</span></div>
+                                    <a href="#" class="buying__btn btn">Заказать</a>
+                              </div>
+                        </div>
+                        <div class="buying__icon"></div>
+                  </div>
+            </section>
+            <section class="contracting">
+                  <div class="container">
+                        <div class="contracting-box contracting__box">
+                              <div class="contracting-box__item">
+                                    <div class="contracting-box__img-box">
+                                          <img src="images/teh.png" alt="" class="contracting-box__img">
+                                    </div>
+                                    <div class="contracting-box__wrap">
+                                          <p class="contracting-box__text">
+                                                Вся техника всегда есть в наличии
+                                          </p>
+                                    </div>
+                              </div>
+                              <div class="contracting-box__item">
+                                    <div class="contracting-box__img-box">
+                                          <img src="images/oper.png" alt="" class="contracting-box__img">
+                                    </div>
+                                    <div class="contracting-box__wrap">
+                                          <p class="contracting-box__text">
+                                                Оперативная подача спецтехники
+                                          </p>
+                                    </div>
+                              </div>
+                              <div class="contracting-box__item">
+                                    <div class="contracting-box__img-box">
+                                          <img src="images/paym.png" alt="" class="contracting-box__img">
+                                    </div>
+                                    <div class="contracting-box__wrap">
+                                          <p class="contracting-box__text">
+                                                гибкая система оплаты (нал/безнал)
+                                          </p>
+                                    </div>
+                              </div>
+                              <div class="contracting-box__item">
+                                    <div class="contracting-box__img-box">
+                                          <img src="images/on-sale-sticker.png" alt="" class="contracting-box__img">
+                                    </div>
+                                    <div class="contracting-box__wrap">
+                                          <p class="contracting-box__text">
+                                                скидки для постоянных клиентов
+                                          </p>
+                                    </div>
+                              </div>
+                              <div class="contracting-box__item">
+                                    <div class="contracting-box__img-box">
+                                          <img src="images/lightning-bolt.png" alt="" class="contracting-box__img">
+                                    </div>
+                                    <div class="contracting-box__wrap">
+                                          <p class="contracting-box__text">
+                                                работаем на территориях с проложенным кабелем
+                                          </p>
+                                    </div>
+                              </div>
+                        </div>
+                  </div>
+            </section>
+            <section class="information">
+                  <div class="container">
+                        <div class="information__wrap">
+                              <div class="information__video">
+                                    <iframe class="information__iframe" width="560" height="315" src="https://www.youtube.com/embed/3jT_q7dt-cM" frameborder="0" allowfullscreen></iframe>
+                              </div>
+                              <div class="information__info">
+                                    <div class="information__row">
+                                          <div class="information__left">
+                                                <img src="images/excavator_mini.png" class="information__image"></img>
+                                                <div class="information__word">Эксплуатационная мощность</div>
+                                          </div>
+                                          <div class="information__value">74.2 кВт</div>
+                                    </div>
+                                    <div class="information__row">
+                                          <div class="information__left">
+                                                <img src="images/kitchen.png" class="information__image"></img>
+                                                <div class="information__word">Эксплуатационная масса</div>
+                                          </div>
+                                          <div class="information__value">8660 кг</div>
+                                    </div>
+                                    <div class="information__row">
+                                          <div class="information__left">
+                                                <img src="images/measuring.png" class="information__image"></img>
+                                                <div class="information__word">Макс. объем ковша погрузчика</div>
+                                          </div>
+                                          <div class="information__value">1.1 куб.м</div>
+                                    </div>
+                                    <div class="information__row">
+                                          <div class="information__left">
+                                                <img src="images/measuring.png" class="information__image"></img>
+                                                <div class="information__word">Макс. объем ковша экскаватора</div>
+                                          </div>
+                                          <div class="information__value">0.48 куб.м</div>
+                                    </div>
+                                    <div class="information__row">
+                                          <div class="information__left">
+                                                <img src="images/Frame.png" class="information__image"></img>
+                                                <div class="information__word">Макс. глубина копания</div>
+                                          </div>
+                                          <div class="information__value">4.32/5.53 м</div>
+                                    </div>
+                              </div>
+                        </div>
+                  </div>
+            </section>
+            <section class="competition">
+                  <div class="container">
+                        <h2 class="title competition__title title--black">Вне конкуренции</h2>
+                        <div class="competition__wrap">
+                              <div class="competition__item">
+                                    <div class="competition__img-box">
+                                          <img src="images/telephone-operator.png" alt="" class="competition__image">
+                                    </div>
+                                    <div class="competition__subtitle">24/7</div>
+                                    <div class="competition__text">
+                                          Звонок, мы Вас консультируем и приступаем к работе!
+                                    </div>
+                              </div>
+                              <div class="competition__item">
+                                    <div class="competition__img-box">
+                                          <img src="images/price-tag.png" alt="" class="competition__image">
+                                    </div>
+                                    <div class="competition__subtitle">Лучшая цена</div>
+                                    <div class="competition__text">
+                                          Звонок, мы Вас консультируем и приступаем к работе!
+                                    </div>
+                              </div>
+                              <div class="competition__item">
+                                    <div class="competition__img-box">
+                                          <img src="images/shipping-truck.png" alt="" class="competition__image">
+                                    </div>
+                                    <div class="competition__subtitle">Собственный автопарк</div>
+                                    <div class="competition__text">
+                                          Звонок, мы Вас консультируем и приступаем к работе!
+                                    </div>
+                              </div>
+                              <div class="competition__item">
+                                    <div class="competition__img-box">
+                                          <img src="images/excavator.png" alt="" class="competition__image">
+                                    </div>
+                                    <div class="competition__subtitle">Высококлассная техника</div>
+                                    <div class="competition__text">
+                                          Звонок, мы Вас консультируем и приступаем к работе!
+                                    </div>
+                              </div>
+                              <div class="competition__item">
+                                    <div class="competition__img-box">
+                                          <img src="images/identity.png" alt="" class="competition__image">
+                                    </div>
+                                    <div class="competition__subtitle">Сертифицированные специалисты</div>
+                                    <div class="competition__text">
+                                          Звонок, мы Вас консультируем и приступаем к работе!
+                                    </div>
+                              </div>
+                        </div>
+                        <div class="competition__subtitle">Рассчитайте стоимость</div>
+                        <div class="competition__paragraph">
+                              Мы свяжемся с Вами, сделаем расчеты и сообщим в течении 15 минут после получения заявки
+                        </div>
+                        <div class="competition__btn">Рассчитать</div>
+                  </div>
+            </section>
+            <section class="characteristics">
+                  <div class="container">
+                        <div class="characteristics__title title title--white">Характеристики</div>
+                        <div class="characteristics__wrap">
+                              <div class="characteristics__block characteristics-block">
+                                    <div class="characteristics-block__image-wrap">
+                                          <img src="images/side.png" alt="" class="characteristics-block__image">
+                                    </div>
+                                    <div class="characteristics-block__info">
+                                          <div class="characteristics-block__row">
+                                                <div class="characteristics-block__left">
+                                                      <div class="characteristics-block__letter
+                                                      ">A</div>
+                                                      <div class="characteristics-block__word">Габаритная длина</div>
+                                                </div>
+                                                <div class="characteristics-block__value">5910,00</div>
+                                          </div>
+                                          <div class="characteristics-block__row">
+                                                <div class="characteristics-block__left">
+                                                      <div class="characteristics-block__letter">A</div>
+                                                      <div class="characteristics-block__word">Колёсная база</div>
+                                                </div>
+                                                <div class="characteristics-block__value">5910,00</div>
+                                          </div>
+                                          <div class="characteristics-block__row">
+                                                <div class="characteristics-block__left">
+                                                      <div class="characteristics-block__letter">A</div>
+                                                      <div class="characteristics-block__word">От оси колонки до оси заднего моста</div>
+                                                </div>
+                                                <div class="characteristics-block__value">5910,00</div>
+                                          </div>
+                                          <div class="characteristics-block__row">
+                                                <div class="characteristics-block__left">
+                                                      <div class="characteristics-block__letter">A</div>
+                                                      <div class="characteristics-block__word">Дорожный просвет от опор</div>
+                                                </div>
+                                                <div class="characteristics-block__value">5910,00</div>
+                                          </div>
+                                    </div>
+                              </div>
+                              <div class="characteristics__block characteristics-block">
+                                    <div class="characteristics-block__image-wrap">
+                                          <img src="images/front.png" alt="" class="characteristics__image">
+                                    </div>
+                                    <div class="characteristics-block__info">
+                                          <div class="characteristics-block__row">
+                                                <div class="characteristics-block__left">
+                                                      <div class="characteristics-block__letter
+                                                      ">A</div>
+                                                      <div class="characteristics-block__word">Габаритная длина</div>
+                                                </div>
+                                                <div class="characteristics-block__value">5910,00</div>
+                                          </div>
+                                          <div class="characteristics-block__row">
+                                                <div class="characteristics-block__left">
+                                                      <div class="characteristics-block__letter">A</div>
+                                                      <div class="characteristics-block__word">Колёсная база</div>
+                                                </div>
+                                                <div class="characteristics-block__value">5910,00</div>
+                                          </div>
+                                          <div class="characteristics-block__row">
+                                                <div class="characteristics-block__left">
+                                                      <div class="characteristics-block__letter">A</div>
+                                                      <div class="characteristics-block__word">От оси колонки до оси заднего моста</div>
+                                                </div>
+                                                <div class="characteristics-block__value">5910,00</div>
+                                          </div>
+                                          <div class="characteristics-block__row">
+                                                <div class="characteristics-block__left">
+                                                      <div class="characteristics-block__letter">A</div>
+                                                      <div class="characteristics-block__word">Дорожный просвет от опор</div>
+                                                </div>
+                                                <div class="characteristics-block__value">5910,00</div>
+                                          </div>
+                                    </div>
+                              </div>
+                        </div>
+                        <div class="characteristics__information">
+                              <div class="characteristics__info-text">
+                                    Перед заказом работ, Вы можете запросить у нас технические характеристики другой спецтехники
+                              </div>
+                              <div class="characteristics__ellipse">
+                                    <img src="images/ellipse.png" alt="">
+                              </div>
+                              <a class="characteristics__link btn">Запросить</a>
+                        </div>
+                  </div>
+            </section>
+            <section class="works">
+                  <div class="container">
+                        <h2 class="works__title title title--white">Виды работ</h2>
+                        <div class="tabs works__tabs">
+                              <div class="tabs__content active">
+                                    <img src="images/works-image.png" alt="" class="tabs__image">
+                              </div>
+                              <div class="tabs__content">
+                                    <img src="images/works-image2.png" alt="" class="tabs__image">
+                              </div>
+                              <div class="tabs__content">
+                                    <img src="images/works-image3.png" alt="" class="tabs__image">
+                              </div>
+                              <div class="tabs__content">
+                                    <img src="images/works-image4.png" alt="" class="tabs__image">
+                              </div>
+                              <div class="tabs__content">
+                                    <img src="images/works-image.png" alt="" class="tabs__image">
+                              </div>
+                              <div class="tabs__content">
+                                    <img src="images/works-image.png" alt="" class="tabs__image">
+                              </div>
+                              <div class="tabs__content">
+                                    <img src="images/works-image2.png" alt="" class="tabs__image">
+                              </div>
+                              <ul class="tabs__caption">
+                                    <li class="tabs__list active">Планировка территорий</li>
+                                    <li class="tabs__list">Уборка снега</li>
+                                    <li class="tabs__list">Рытье котлованов</li>
+                                    <li class="tabs__list">Перевоз сыпучих материалов</li>
+                                    <li class="tabs__list">Погрузка/сброс материалов</li>
+                                    <li class="tabs__list">Погрузка строймусора</li>
+                                    <li class="tabs__list">Погрузка строймусора</li>
+                              </ul>
+                        </div>
+                  </div>
+            </section>
+            <section class="team">
+                  <div class="container">
+                        <h2 class="team__title title title--orange">Наша команда</h2>
+                        <div class="team__wrap">
+                              <div class="team__item team-block">
+                                    <img src="images/team-image.png" alt="" class="team-block__image">
+                                    <div class="team-block__title">Татьяна</div>
+                                    <div class="team-block__position">менеджер</div>
+                                    <p class="team-block__text">Объемный ковш позволяет зачерпывать большое количество грунта, а двигатель дает возможность грузить и перемещать предметы</p>
+                              </div>
+                              <div class="team__item team-block">
+                                    <img src="images/team-image.png" alt="" class="team-block__image">
+                                    <div class="team-block__title">Татьяна</div>
+                                    <div class="team-block__position">менеджер</div>
+                                    <p class="team-block__text">Объемный ковш позволяет зачерпывать большое количество грунта, а двигатель дает возможность грузить и перемещать предметы</p>
+                              </div>
+                              <div class="team__item team-block">
+                                    <img src="images/team-image.png" alt="" class="team-block__image">
+                                    <div class="team-block__title">Татьяна</div>
+                                    <div class="team-block__position">менеджер</div>
+                                    <p class="team-block__text">Объемный ковш позволяет зачерпывать большое количество грунта, а двигатель дает возможность грузить и перемещать предметы</p>
+                              </div>
+                        </div>
+                        <div class="team__box">
+                              <div class="team__btn btn">Оставить заявку</div>
+                        </div>
+                  </div>
+            </section>
+            <section class="experience">
+                  <div class="container">
+                        <h2 class="experience__title title title--white">Почему важно работать с опытными экскаваторщиками?</h2>
+                        <div class="experience__wrap">
+                              <div class="experience__item exp-item experience__item--black">
+                                    <img src="images/exp-image.png" alt="" class="exp-item__img">
+                                    <div class="exp-item__title">Обычный экскаваторщик 450грн/час</div>
+                                    <div class="exp-item__wrap">
+                                          <div class="exp-item__row">
+                                                <div class="exp-item__desc">Вырыть котлован 10 часов</div>
+                                                <div class="exp-item__point"></div>
+                                                <div class="exp-item__price">4500 грн</div>
+                                          </div>
+                                          <div class="exp-item__row">
+                                                <div class="exp-item__desc">Вырыть котлован 10 часов</div>
+                                                <div class="exp-item__point"></div>
+                                                <div class="exp-item__price">4500 грн</div>
+                                          </div>
+                                          <div class="exp-item__row">
+                                                <div class="exp-item__desc">Вырыть котлован 10 часов</div>
+                                                <div class="exp-item__point"></div>
+                                                <div class="exp-item__price">4500 грн</div>
+                                          </div>
+                                    </div>
+                              </div>
+                              <div class="experience__item exp-item experience__item--orange">
+                                    <img src="images/exp-image.png" alt="" class="exp-item__img">
+                                    <div class="exp-item__title exp-item__title--color">Обычный экскаваторщик 450грн/час</div>
+                                    <div class="exp-item__wrap">
+                                          <div class="exp-item__row">
+                                                <div class="exp-item__desc exp-item__desc--color">Вырыть котлован 10 часов</div>
+                                                <div class="exp-item__point exp-item__point--color"></div>
+                                                <div class="exp-item__price exp-item__price--color">4500 грн</div>
+                                          </div>
+                                          <div class="exp-item__row">
+                                                <div class="exp-item__desc exp-item__desc--color">Вырыть котлован 10 часов</div>
+                                                <div class="exp-item__point exp-item__point--color"></div>
+                                                <div class="exp-item__price exp-item__price--color">4500 грн</div>
+                                          </div>
+                                          <div class="exp-item__row">
+                                                <div class="exp-item__desc exp-item__desc--color">Вырыть котлован 10 часов</div>
+                                                <div class="exp-item__point exp-item__point--color"></div>
+                                                <div class="exp-item__price exp-item__price--color">4500 грн</div>
+                                          </div>
+                                    </div>
+                              </div>
+
+                              <div class="experience__item exp-item experience__item--black">
+                                    <img src="images/exp-image.png" alt="" class="exp-item__img">
+                                    <div class="exp-item__title">Обычный экскаваторщик 450грн/час</div>
+                                    <div class="exp-item__wrap">
+                                          <div class="exp-item__row">
+                                                <div class="exp-item__desc">Вырыть котлован 10 часов</div>
+                                                <div class="exp-item__point"></div>
+                                                <div class="exp-item__price">4500 грн</div>
+                                          </div>
+                                          <div class="exp-item__row">
+                                                <div class="exp-item__desc">Вырыть котлован 10 часов</div>
+                                                <div class="exp-item__point"></div>
+                                                <div class="exp-item__price">4500 грн</div>
+                                          </div>
+                                          <div class="exp-item__row">
+                                                <div class="exp-item__desc">Вырыть котлован 10 часов</div>
+                                                <div class="exp-item__point"></div>
+                                                <div class="exp-item__price">4500 грн</div>
+                                          </div>
+                                    </div>
+                              </div>
+                        </div>
+                  </div>
+            </section>
+            <section class="saving">
+                  <div class="container">
+                        <h2 class="saving__title title title--white">Что бывает, если экономить на услугах экскаватора</h2>
+                        <iframe width="100" height="570" class="saving__iframe" src="https://www.youtube.com/embed/3jT_q7dt-cM" frameborder="0" allowfullscreen></iframe>
+                  </div>
+            </section>
+            <section class="why">
+                  <div class="container">
+                        <h2 class="why__title title title--orange">Как все происходит?</h2>
+                        <div class="why__wrap">
+                              <div class="why__item item">
+                                    <div class="item__image-wrap">
+                                          <img src="images/why.png" alt="" class="item__image">
+                                          <div class="item__number">1</div>
+                                    </div>
+                                    <a class="item__btn btn-transparent">Оставить заявку</a>
+                              </div>
+                              <div class="why__item item">
+                                    <div class="item__image-wrap">
+                                          <img src="images/why.png" alt="" class="item__image">
+                                          <div class="item__number">2</div>
+                                    </div>
+                                    <a class="item__btn btn-transparent">Оставить заявку</a>
+                              </div>
+                              <div class="why__item item">
+                                    <div class="item__image-wrap">
+                                          <img src="images/why.png" alt="" class="item__image">
+                                          <div class="item__number">3</div>
+                                    </div>
+                                    <a class="item__btn btn-transparent">Оставить заявку</a>
+                              </div>
+                              <div class="why__item item">
+                                    <div class="item__image-wrap">
+                                          <img src="images/why.png" alt="" class="item__image">
+                                          <div class="item__number">4</div>
+                                    </div>
+                                    <a class="item__btn btn-transparent">Оставить заявку</a>
+                              </div>
+                        </div>
+                  </div>
+            </section>
+            <section class="benefit">
+                  <div class="container">
+                        <h2 class="benefit__title title title--black">Чем больше работы – тем меньше платишь!</h2>
+                        <div class="benefit__wrap">
+                              <div class="benefit__image">
+                                    <img src="images/beton-3.png" alt="">
+                              </div>
+                              <div class="benefit__pricing">
+                                    <div class="benefit__price">10400 <span class="benefit__currency">грн</span></div>
+                                    <div class="benefit__price-hour">650 <span class="benefit__price-hour-currency">грн/час</span></div>
+                              </div>
+                              <div class="benefit__box">
+                                    <div class="benefit__slider-desc">Рабочие часы:</div>
+                                    <div id="slider" class="benefit__slider calculator"></div>
+                                    <div class="benefit__btn-wrap">
+                                          <div class="benefit__btn">Узнайте свою скидку</div>
+                                    </div>
+                              </div>
+                        </div>
+                  </div>
+            </section>
+            <section class="about">
+                  <div class="container">
+                        <div class="about__wrap">
+                              <p class="about__paragraph">
+                                    Компания «Betonno» предлагает ознакомиться с моделями настоящих рабочих лошадок – машин JCB. Это экскаватор-погрузчик, который специализируется на выполнении земляных работ и погрузке. Его большой, вместительный ковш позволяет быстро выполнять земляные работы.
+                                    В ту же очередь, обладая мощным двигателем, он способен перемещать и грузить предметы с большой массой.
+                              </p>
+                              <p class="about__paragraph">
+                                    Экскаватор-погрузчик JCB  4CX предназначен
+                                    для земляных работ, а также для погрузки.
+                                    Объемный ковш позволяет зачерпывать большое количество
+                                    грунта, а двигатель дает возможность грузить и перемещать
+                                    предметы с большой массой.
+                                    Все машины из сери 4СХ получили рулевое управление с гидравлическим усилителем, которое имеет 3 режима: есть возможность поворота колесной базы в противоположные, также можно поворачивать 2 или 4 колеса.
+                              </p>
+                        </div>
+                  </div>
+            </section>
+            <section class="additionally" id="additionally">
+                  <div class="container">
+                        <h1 class="additionally__title title title--orange">Дополнительно</h1>
+                        <div class="additionally__wrap">
+                              <div class="additionally__block add-block">
+                                    <div class="add-block__image-wrap">
+                                          <img src="images/car.png" alt="" class="add-block__image">
+                                    </div>
+                                    <h2 class="additionally__subtitle">Услуги манипулятора</h2>
+                                    <p class="additionally__text">
+                                          Многие рабочие процессы включают в себя погрузку и разгрузку. Для выполнения этих задач, самой подходящей техникой является кран-манипулятор.
+                                    </p>
+                                    <a class="additionally__button btn">Подробнее</a>
+                              </div>
+                              <div class="additionally__block add-block">
+                                    <div class="add-block__image-wrap">
+                                          <img src="images/car2.png" alt="" class="add-block__image">
+                                    </div>
+                                    <h2 class="additionally__subtitle">Доставка бетона</h2>
+                                    <p class="additionally__text">
+                                          Аренда бетоновоза и бетононасоса. Подача растворов и смесей из бетона в трудно доступные места, что позволяет сократить время выполняемых работ, а также, облегчает саму работу.
+                                    </p>
+                                    <a class="additionally__button btn btn-yellow">Подробнее</a>
+                              </div>
+                        </div>
+                  </div>
+            </section>
+      </main>
+      <footer class="footer">
+            <div class="container">
+                  <div class="footer__wrap">
+                        <div class="footer__left">
+                              <div class="footer__logo logo">
+                                    <img src="images/logo.png" alt="">
+                              </div>
+                              <div class="info-contact footer__contact">
+                                    <div class="info-contact__block">
+                                          <img src="images/map.png" alt="" class="info-contact__image">
+                                          <div class="info-contact__desc">Киев, ул. Новоконстантиновская 1-В</div>
+                                    </div>
+                                    <div class="info-contact__block">
+                                          <img src="images/contact.png" alt="" class="info-contact__image">
+                                          <a href="tel:+38 (044) 223-74-29" class="info-contact__desc">+38 (096) 151-77-77<span class="info-contect__free info-contact__free--color"> (отдел продаж)</span></a>
+                                    </div>
+                                    <div class="info-contact__block">
+                                          <img src="images/call.png" alt="" class="info-contact__image">
+                                          <a href="tel:+38 (096) 161-77-77" class="info-contact__desc">+38 (067) 964-27-80</a>
+                                    </div>
+                                    <div class="info-contact__block">
+                                          <img src="images/call.png" alt="" class="info-contact__image">
+                                          <a href="tel:+38 (096) 161-77-77" class="info-contact__desc">+38 (093) 011-12-76</a>
+                                    </div>
+                                    <div class="info-contact__block">
+                                          <img src="images/mail.png" alt="" class="info-contact__image">
+                                          <a href="mailto:progres-company@ukr.net" class="info-contact__desc info-contact__desc--yellow">progres-company@ukr.net</a>
+                                    </div>
+                                    <div class="info-contact__block">
+                                          <a class="info-contact__link btn btn-yellow" onclick="$('#exampleModal').arcticmodal()">Оформить зяавку</a>
+                                    </div>
+                              </div>
+                        </div>
+                        <div class="footer__right">
+                              <div class="footer__text">
+                                    Напишите нам, наши менеджеры свяжутся с Вами в ближайшее время!
+                              </div>
+                              <form class="footer__form form-work form-phone" id="form1" method="POST" novalidate="novalidate">
+                                    <div class="form-work__block form-work__block--margin">
+                                          <label class="form-work__label form-work__label--white">Ваше имя*</label>
+                                          <input type="text" name="name" class="form-work__input form-work__input--full" placeholder="Иванов Иван Сергеевич">
+                                    </div>
+                                    <div class="form-work__wrap">
+                                          <div class="form-work__block form-work__block--width">
+                                                <label class="form-work__label form-work__label--white">Номер телефона*</label>
+                                                <input type="text" name="number" class="form-work__input mask" placeholder="+380 -- --- -- --">
+                                          </div>
+                                          <div class="form-work__block form-work__block--width">
+                                                <label class="form-work__label form-work__label--white">E-mail*</label>
+                                                <input type="text" name="email" class="form-work__input form-work__input--width" placeholder="yourmail@mailserver.com">
+                                          </div>
+                                    </div>
+                                    <div class="form-work__block form-work__block--text-area">
+                                          <label class="form-work__label form-work__label--white">Ваще сообщение*</label>
+                                          <textarea class="form-work__textarea" name="textarea"></textarea>
+                                    </div>
+                                    <input type="hidden" name="formData" value="Заявка">
+                                    <input type="submit" class="form-work__button btn" value="Отправить">
+                              </form>
+                        </div>
+                  </div>
+            </div>
+            <div class="footer__copyright">
+                  © 2017-2019   betonno
+            </div>
+      </footer>
+</body>
+</html>
