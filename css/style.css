@@ -1611,9 +1611,14 @@ section {
     font-family: 'MontserratRegular', sans-serif;
     color: #98a1b2;
     box-shadow: inset 0 0px 0px 1px #ddd;
+    border: 2px solid #ddd;
     border: 0;
     outline: 0;
     border-radius: 100px;
+}
+
+.form-work__input:focus, .form-work__textarea:focus {
+	box-shadow: inset 0 0px 0px 2px #ffc600;
 }
 
 .form-work__textarea {

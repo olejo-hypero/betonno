@@ -34,7 +34,7 @@ $(document).ready(function(){
 	$('.nav__link').click( function(){ // ловим клик по ссылке с классом go_to
 		var scroll_el = $(this).attr('href'); // возьмем содержимое атрибута href, должен быть селектором, т.е. например начинаться с # или .
 	        if ($(scroll_el).length != 0) { // проверим существование элемента чтобы избежать ошибки
-		    $('html, body').animate({ scrollTop: $(scroll_el).offset().top }, 500); // анимируем скроолинг к элементу scroll_el
+		    $('html, body').animate({ scrollTop: $(scroll_el).offset().top-119 }, 500); // анимируем скроолинг к элементу scroll_el
 		    	$(".nav__link").removeClass('nav__link--active');
             		$(this).addClass('nav__link--active');
 	        }
@@ -44,6 +44,12 @@ $(document).ready(function(){
     $('.buying__icon').click(function() {
 	    $('html, body').animate({
             scrollTop: $(".contracting").offset().top
+        }, 500);
+	});
+
+	$('.competition__btn').click(function() {
+	    $('html, body').animate({
+            scrollTop: $(".benefit").offset().top-119
         }, 500);
 	});
 
