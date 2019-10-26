@@ -407,6 +407,9 @@
 	.buying__description {
 		text-align: right;
 	}
+	.why__wrap {
+		margin-top: 50px;
+	}
 	.competition__item {
 		width: 49%;
 		margin-right: 2%;
@@ -664,6 +667,9 @@
 	}
 	.buying__description {
 		text-align: right;
+	}
+	.why__wrap {
+		margin-top: 50px;
 	}
 	.buying__price {
 		font-size: 50px;

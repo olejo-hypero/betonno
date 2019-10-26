@@ -31,19 +31,25 @@ $(document).ready(function(){
 
 	$('.mask').mask("+380 999-99-99-99");
 
-	$('.nav__link').click( function(){ // ловим клик по ссылке с классом go_to
+	$('.nav__link, .nav-menu__link').click( function(){ // ловим клик по ссылке с классом go_to
 		var scroll_el = $(this).attr('href'); // возьмем содержимое атрибута href, должен быть селектором, т.е. например начинаться с # или .
 	        if ($(scroll_el).length != 0) { // проверим существование элемента чтобы избежать ошибки
 		    $('html, body').animate({ scrollTop: $(scroll_el).offset().top-119 }, 500); // анимируем скроолинг к элементу scroll_el
-		    	$(".nav__link").removeClass('nav__link--active');
-            		$(this).addClass('nav__link--active');
+		    	if($('.header__nav').hasClass('nav__link')) {
+		    		$(".nav__link").removeClass('nav__link--active');
+            		$('.nav__link').addClass('nav__link--active');
+		    	}
+		    	else if($('.nav-menu').hasClass('nav-menu__link')) {
+		    		$(".nav-menu__link").removeClass('nav-menu__link--active');
+            		$('.nav-menu__link').addClass('nav-menu__link--active');
+		    	}
 	        }
 		    return false; // выключаем стандартное действие
     });
 
     $('.buying__icon').click(function() {
 	    $('html, body').animate({
-            scrollTop: $(".contracting").offset().top
+            scrollTop: $(".contracting").offset().top-119
         }, 500);
 	});
 
