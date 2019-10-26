@@ -31,12 +31,22 @@ $(document).ready(function(){
 
 	$('.mask').mask("+380 999-99-99-99");
 
-	$('.nav__link, .nav-menu__link').click( function(){ // ловим клик по ссылке с классом go_to
+	$('.nav__link').click( function(){ // ловим клик по ссылке с классом go_to
 		var scroll_el = $(this).attr('href'); // возьмем содержимое атрибута href, должен быть селектором, т.е. например начинаться с # или .
 	        if ($(scroll_el).length != 0) { // проверим существование элемента чтобы избежать ошибки
 		    $('html, body').animate({ scrollTop: $(scroll_el).offset().top-119 }, 500); // анимируем скроолинг к элементу scroll_el
 		    	$(".nav__link").removeClass('nav__link--active');
             		$(this).addClass('nav__link--active');
+	        }
+		    return false; // выключаем стандартное действие
+    });
+
+    $('.nav-menu__link').click( function(){ // ловим клик по ссылке с классом go_to
+		var scroll_el = $(this).attr('href'); // возьмем содержимое атрибута href, должен быть селектором, т.е. например начинаться с # или .
+	        if ($(scroll_el).length != 0) { // проверим существование элемента чтобы избежать ошибки
+		    $('html, body').animate({ scrollTop: $(scroll_el).offset().top-119 }, 500); // анимируем скроолинг к элементу scroll_el
+		    	$(".nav-menu__link").removeClass('nav-menu__link--active');
+            		$(this).addClass('nav-menu__link--active');
 	        }
 		    return false; // выключаем стандартное действие
     });
