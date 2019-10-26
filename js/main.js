@@ -35,14 +35,8 @@ $(document).ready(function(){
 		var scroll_el = $(this).attr('href'); // возьмем содержимое атрибута href, должен быть селектором, т.е. например начинаться с # или .
 	        if ($(scroll_el).length != 0) { // проверим существование элемента чтобы избежать ошибки
 		    $('html, body').animate({ scrollTop: $(scroll_el).offset().top-119 }, 500); // анимируем скроолинг к элементу scroll_el
-		    	if($('.header__nav').hasClass('nav__link')) {
-		    		$(".nav__link").removeClass('nav__link--active');
-            		$('.nav__link').addClass('nav__link--active');
-		    	}
-		    	else if($('.nav-menu').hasClass('nav-menu__link')) {
-		    		$(".nav-menu__link").removeClass('nav-menu__link--active');
-            		$('.nav-menu__link').addClass('nav-menu__link--active');
-		    	}
+		    	$(".nav__link").removeClass('nav__link--active');
+            		$(this).addClass('nav__link--active');
 	        }
 		    return false; // выключаем стандартное действие
     });
