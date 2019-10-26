@@ -1059,6 +1059,10 @@ section {
 	color: #000;
 }
 
+.experience {
+	padding-bottom: 0;
+}
+
 .experience__wrap {
 	display: -webkit-flex;
 	display: -moz-flex;
